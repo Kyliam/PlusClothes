@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ecommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\orderdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\orderdetails.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\orderdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\orderdetails.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\history.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\history.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\history.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\payment.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|d:\\ecommerce\\ecommerce\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\payment.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|D:\\ecommerce\\ecommerce\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\cart.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|D:\\ecommerce\\ecommerce\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A086A50-A48D-48F9-873A-8E19C2E03EA6}|ecommerce\\ecommerce.csproj|solutionrelative:ecommerce\\cart.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\MasterPage.Master",
+              "RelativeDocumentMoniker": "ecommerce\\MasterPage.Master",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\MasterPage.Master",
+              "RelativeToolTip": "ecommerce\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T08:22:05.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "History.aspx.cs",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\History.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce\\History.aspx.cs",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\History.aspx.cs",
+              "RelativeToolTip": "ecommerce\\History.aspx.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:17:53.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetails.aspx.cs",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\OrderDetails.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce\\OrderDetails.aspx.cs",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\OrderDetails.aspx.cs",
+              "RelativeToolTip": "ecommerce\\OrderDetails.aspx.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBgAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T08:17:37.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderDetails.aspx",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\OrderDetails.aspx",
+              "RelativeDocumentMoniker": "ecommerce\\OrderDetails.aspx",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\OrderDetails.aspx",
+              "RelativeToolTip": "ecommerce\\OrderDetails.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T08:16:59.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "History.aspx",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\History.aspx",
+              "RelativeDocumentMoniker": "ecommerce\\History.aspx",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\History.aspx",
+              "RelativeToolTip": "ecommerce\\History.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T08:13:31.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\Login.aspx",
+              "RelativeDocumentMoniker": "ecommerce\\Login.aspx",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\Login.aspx",
+              "RelativeToolTip": "ecommerce\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-16T07:57:37.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Payment.aspx.cs",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\Payment.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce\\Payment.aspx.cs",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\Payment.aspx.cs",
+              "RelativeToolTip": "ecommerce\\Payment.aspx.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwB4AAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T07:48:58.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payment.aspx",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\Payment.aspx",
+              "RelativeDocumentMoniker": "ecommerce\\Payment.aspx",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\Payment.aspx",
+              "RelativeToolTip": "ecommerce\\Payment.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-15T15:21:28.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cart.aspx.cs",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\Cart.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce\\Cart.aspx.cs",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\Cart.aspx.cs",
+              "RelativeToolTip": "ecommerce\\Cart.aspx.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwHYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:20:09.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.aspx",
+              "DocumentMoniker": "D:\\ecommerce\\ecommerce\\Cart.aspx",
+              "RelativeDocumentMoniker": "ecommerce\\Cart.aspx",
+              "ToolTip": "D:\\ecommerce\\ecommerce\\Cart.aspx",
+              "RelativeToolTip": "ecommerce\\Cart.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-15T09:58:41.958Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

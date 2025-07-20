@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="BTL.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server" />
+    </title>
+    <link href="StyleSheet1.css" type="text/css" rel="stylesheet" />
+    
+    <style>
+        .content-style {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+    .content-style table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .content-style table th,
+        .content-style table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .menu{
+            width:auto;
+        }
+        .change-image{
+            margin:0 200px;
+        }
+        .user-icon{
+            width:30px;
+            height:30px;
+            padding: 20px 0px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .user{
+            display:flex;
+            gap: 10px;
+
+        }
+        .user a{
+            margin: 0;
+            font-size: 18px; 
+            color: #333;
+            padding: 25px 0px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <div class="header">
+                    <h1>GROUP 16'S PROJECT</h1>
+                    <div class="user" style="align-items:center; gap:10px;">
+                        <img src="Images/user_icon.png" alt="admin-icon" class="user-icon"/>
+                     <%--   <a href="AdminDashboard.aspx">Đăng xuất</a>--%>
+                        <asp:Button Text="Đăng xuất" runat="server" ID="logout" OnClick="btn_logout"  style="height:32px ; padding:5px 10px 8px; text-align:center; background-color:#4caf50; border:none; color:white; font-weight:550; cursor:pointer; border-radius:8px"/>
+                    </div>
+                </div>
+                
+                <div class="menu">
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Quản lý sản phẩm</a>
+                            <div class="dropdown-content">
+                                <a href="List.aspx">Danh sách sản phẩm</a>
+                                <a href="Add.aspx">Thêm sản phẩm</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Quản lý danh mục</a>
+                            <div class="dropdown-content">
+                                <a href="CategoryList.aspx">Danh sách danh mục</a>
+                                <a href="CategoryAdd.aspx">Thêm danh mục</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Quản lý tài khoản</a>
+                            <div class="dropdown-content">
+                                <a href="UserList.aspx">Danh sách tài khoản</a>
+                                <a href="UserAdd.aspx">Thêm tài khoản</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">Quản lý đơn hàng</a>
+                            <div class="dropdown-content">
+                                <a href="OrderState.aspx">Trạng thái đơn hàng</a>
+                                <a href="Statistics.aspx">Thống kê</a>
+                                <a href="top3_5.aspx">Top sản phẩm</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-style">
+                <asp:ContentPlaceHolder ID="content" runat="server">
+                </asp:ContentPlaceHolder>
+           </div>
+        </div>
+    </form>
+</body>
+</html>

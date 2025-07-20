@@ -1,0 +1,136 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgba(29, 31, 46, 0.7);
+    --light-color: #a25f4b;
+    --pink-color: #fdcedf;
+    --light-pink-color: #f2d8d8;
+    --hard-pink-color: #f2bed1;
+}
+
+body {
+    display: flex;
+    font-family: "Karla", sans-seri;
+    background-image: linear-gradient(to bottom, #f2bed1, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 25px;
+    width: 400px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center
+}
+
+
+.back_to_home {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+    .back_to_home > a {
+        text-decoration: none;
+        color: #ea1179;
+        font-weight: 800;
+        font-size: 40px;
+        cursor: pointer;
+        display: block;
+        margin-bottom: 40px;
+    }
+
+        .back_to_home > a > i {
+            margin-right: 15px;
+        }
+
+
+
+
+
+.form_header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+}
+
+.filed {
+    display: flex;
+    flex-direction: column;
+}
+
+    .filed input {
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid #e5e5e5;
+        outline: none;
+        transition: all 0.2s linear;
+    }
+
+        .filed input:focus {
+            border-color: var(--hard-pink-color);
+        }
+
+    .filed label {
+        font-weight: bolder;
+        color: #000;
+    }
+
+.btn_signup {
+    padding: 15px 10px;
+    background: #000;
+    color: var(--hard-pink-color);
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn_signup:hover {
+    background: var(--hard-pink-color);
+    color: black;
+}
+
+.to_register {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.remember {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.pass_box {
+    width: 100%;
+    position: relative;
+}
+
+    .pass_box input {
+        width: 100%;
+    }
+
+    .pass_box span {
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }

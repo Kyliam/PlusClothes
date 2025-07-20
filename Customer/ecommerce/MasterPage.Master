@@ -1,0 +1,135 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ecommerce.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <style>
+        
+    </style>
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link href="./css/app.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="sticky top-0 left top-0 right-0 z-50">
+            <nav class="bg-white shadow-lg">
+                <div class="mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="flex items-center justify-between h-20">
+                        <div class="flex-shrink-0 flex items-center">
+                            <a href="#">
+                                <img src="./imgs/logo.jpg" alt="Alternate Text" class="w-12 h-12" /></a>
+                        </div>
+                        <div class="hidden md:flex items-center space-x-4">
+                            <a href="/HomePage.aspx" class="text-pink-500 hover:bg-pink-100 px-3 py-2 rounded-md text-sm font-medium">Trang chủ</a>
+                            <%-- Menu danh muc --%>
+                            <asp:HyperLink ID="lnkCategory1" runat="server" NavigateUrl="~/ProductPage.aspx?category_id=1" CssClass="text-pink-500 hover:bg-pink-100 px-3 py-2 rounded-md text-sm font-medium flex items-center">Áo</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/ProductPage.aspx?category_id=2" CssClass="text-pink-500 hover:bg-pink-100 px-3 py-2 rounded-md text-sm font-medium flex items-center">Quần</asp:HyperLink>
+                            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ProductPage.aspx?category_id=3" CssClass="text-pink-500 hover:bg-pink-100 px-3 py-2 rounded-md text-sm font-medium flex items-center">Mũ</asp:HyperLink>
+
+                            <%-- End --%>
+                            <a href="./Cart.aspx" class="text-pink-500 hover:bg-pink-100 px-3 py-2 rounded-md text-sm font-medium flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-1">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                                </svg>
+                                Giỏ hàng
+                            </a>
+                            <a href="#" class="text-pink-500 hover:bg-pink-100 px-3 py-2 rounded-md text-sm font-medium flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-1">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                </svg>
+                                Yêu thích
+                            </a>
+                        </div>
+
+                        <div class="flex gap-2 items-center">
+                            <asp:Label runat="server" ID="TxtUsername"/>
+                            <div class="relative group flex items-center person-menu">
+                                <img src="./imgs/user_default.jpg" alt="Alternate Text" class="rounded-md w-12 h-12 cursor-pointer" />
+                                <div class="absolute right-0 z-50 w-48 bg-white rounded-md shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 top-12 sub-person-menu">
+                                    <div class="py-1">
+                                        <asp:HyperLink ID="loginLink" runat="server" NavigateUrl="~/login.aspx" CssClass="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">Đăng nhập</asp:HyperLink>
+                                        <asp:Button ID="logoutButton" runat="server" Text="Đăng xuất" CssClass="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100 w-full text-left cursor-pointer bg-white" OnClick="btnLogout_Click" />
+                                        <asp:HyperLink ID="historyLink" runat="server" NavigateUrl="~/History.aspx" CssClass="block px-4 py-2 text-sm text-gray-700 hover:bg-pink-100">Lịch sử mua hàng</asp:HyperLink>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+
+        <%-- Content --%>
+        <div>
+            <asp:ContentPlaceHolder ID="content" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <%-- sub --%>
+        <section class="container">
+            <div class="subcribe">
+                <div class="sub-line">
+                    <span></span>
+                    SUBCRIBE AND GET FREE VOUCHER
+        <span></span>
+                </div>
+                <h1 class="subcribe-title">Products Updates</h1>
+                <div class="form">
+                    <input type=" email" name="email" id="email" placeholder="CUSTOMER@GMAIL.COM">
+                    <button name="sub" id="btn_sub">SUBCRIBE</button>
+                </div>
+            </div>
+
+        </section>
+
+        <%-- footer --%>
+        <footer class="main">
+            <div class="footer">
+                <div class="footer-col">
+                    <h1 class="footer-header">
+                        <img src="/imgs/logo.jpg" alt="" width="50" height="50"></h1>
+                    <p class="footer-detail">
+                        Delivering the best coffee life since 1996. From coffee geeks to the real
+                    ones.
+                    </p>
+                    <span class="text-[12px] text-slate-400">DevByMe. © 2023</span>
+                </div>
+                <div class="footer-col">
+                    <span><a href="#">Home</a></span>
+                    <span><a href="#">Our Products</a></span>
+                    <span><a href="#">About</a></span>
+                    <span><a href="#">Contact</a></span>
+                    <span><a href="#">Styleguide</a></span>
+                </div>
+                <div class="footer-col">
+                    <h1 class="footer-header">FOLLLOW US</h1>
+                    <span><a href="#">Facebook</a></span>
+                    <span><a href="#">Instagram</a></span>
+                    <span><a href="#">Pinterest</a></span>
+                    <span><a href="#">Twitter</a></span>
+                </div>
+                <div class="footer-col">
+                    <h1 class="footer-header">CONTACT US</h1>
+                    <p class="mb-4 text-slate-400">We're Always Happy to Help</p>
+                    <p class="text-[20px] mb-20 max-lg:text-lg hover:text-light-coffee">Ducninh10x03@gmail.com</p>
+                    <span class="text-[12px] text-slate-400">DevByMe. © 2023</span>
+                </div>
+            </div>
+        </footer>
+
+
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script>
+        const swiper = document.querySelector('.swiper-container').swiper;
+        swiper.params.autoplay.delay = 2000; // 2 seconds
+        swiper.autoplay.start();
+    </script>
+</body>
+</html>
